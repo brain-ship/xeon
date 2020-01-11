@@ -12,7 +12,7 @@ public class StreamFileWriter {
 	private Vector<String> inp;
 	
 	public StreamFileWriter(String st, Vector<String> data) {
-		fname = ShieldSwitch.multiReplace(st, '\\');
+		fname = st;
 		inp = data;
 	}
 	
